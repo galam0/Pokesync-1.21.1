@@ -1,0 +1,14 @@
+name: PokeSync
+version: '2.4.2'
+author: GT86
+main: me.gt86.pokesync.PokeSync
+api-version: '1.21'
+description: Pixelmon Data Sync Plugin
+depend:
+  - HuskSync
+commands:
+  pokesync:
+    aliases:
+      - reloadpokesync
+    description: The reload command for PokeSync.
+    permission: pokesync.admin
